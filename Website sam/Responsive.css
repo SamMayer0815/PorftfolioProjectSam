@@ -1,0 +1,68 @@
+/* ---Telefoon--- */
+@media screen and (max-width: 720px) and (min-width: 0px){
+  .button{
+     transform: translateX(0px);
+  }
+  #navigatie-container{
+    visibility: hidden;
+  }
+  .navigatie{
+    visibility: hidden;
+  }
+  .button{
+    transform: translateX(10px);
+  }
+  #navigatie-container{
+    visibility: hidden;
+  }
+  .navigatie{
+    visibility: hidden;
+  }
+  #left-screen{ 
+    width: 0vw;
+  }
+  #info-container, #skill-container, #contact-container{
+    width: 100%;
+  }
+  .contact > p{
+    font-size: 3vw;
+    line-height: 8vh;
+  }
+  .contactImg{
+    height: 50%;
+  }
+  #Nametext{
+    font-size: 35px;
+  }
+  #profile{
+    width: 100px;
+    height: 100px;
+  }
+}
+/* ---Tabblad--- */
+/* -vertical mode- */
+@media screen and (max-width: 920px) and (min-width: 721px){
+  .button{
+    transform: translateX(10px);
+  }
+  #navigatie-container{
+    visibility: hidden;
+  }
+  .navigatie{
+    visibility: hidden;
+  }
+  #left-screen{ 
+    width: 0vw;
+  }
+  #info-container, #skill-container, #contact-container{
+    width: 100%;
+  }
+}
+
+/* ---Desktop--- */
+@media screen and (min-width: 1281px){
+  .button{
+    transform: translateX(-200px);
+  }
+  
+}
