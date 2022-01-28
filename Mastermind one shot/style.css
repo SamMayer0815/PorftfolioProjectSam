@@ -1,0 +1,29 @@
+*{
+  border: black 1px solid;
+  padding: 0px;
+  margin: 0px;
+  font-size: 30px;
+  user-select: none;
+  background-color: rgb(150, 150, 150);
+}
+
+.container{
+  border: 0px;
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 50px;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.Wide{
+  grid-column: span 3;
+}
+
+#answer p{
+  border: 0px;
+  display: inline-block;
+  vertical-align: top;
+}

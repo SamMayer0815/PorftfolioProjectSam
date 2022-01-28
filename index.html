@@ -1,0 +1,155 @@
+<!-- Dit is onze website, onze website is opgebouwd en verschillende onderdelen, het eerste onderdeel is de navigatie.
+    Deze navigatie staat aangegeven in de CSS file waaronder alle styling voor het header onderdeel is geplaatst. Voor elk onderdeel staat er boven aan de code onderdelen een comment die aangeeft waar je jezelf in de code bevindt.
+    Zo kan jij jezelf makkelijker en sneller begeven naar de gezochte info in de code.
+    Elk onderdeel staat aangegeven op volgorde van waarop deze is ontwikkeld.
+    de volgende onderdelen zijn: Header, Info, Footer.
+    Om het overzichtelijk te houden hebben we de media queries voor de responsive webdesign in een aparte CSS file geplaatst.
+    Zie hiervoor responsive.css-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpagina</title>
+</head>
+
+<body>
+    
+    
+    <div id="left-screen">    
+        <div id="navigatie-container">
+            <div class="navigatie" id="about"><strong><a id="aboutLink" href="#headline1" style="text-decoration: none;"><span></span>Over mij</a></strong></div>
+            <div class="navigatie" id="opleidingen"><strong><a id="opleidingenLink" href="#headline2" style="text-decoration: none;"><span></span>Opleidingen</a></strong></div>
+            <div class="navigatie" id="projecten"><strong><a id="projectenLink" href="#headline3" style="text-decoration: none;"><span></span>Projecten</a></strong></div>
+            <div class="navigatie" id="skills"><strong><a id="skillsLink" href="#headline4" style="text-decoration: none;"><span></span>Skills</a></strong></div>
+            <div class="navigatie" id="werkervaring"><strong><a id="werkervaringLink" href="#headline5" style="text-decoration: none;"><span></span>Werkervaring</a></strong></div>
+            <div class="navigatie" id="contact"><strong><a id="contactLink" href="#headline6" style="text-decoration: none;"><span></span>Contact</a></strong></div>
+        </div>
+    </div>
+
+    <div id="header">
+        <div id="profile-picture">
+            <img id="profile" src="fotoSam.jpg" alt="Profile Picture">
+        </div>
+        <h1 id="Nametext">Portfolio</h1>
+        <h2>Sam Mayer</h2>
+    </div>
+
+    <div id="info-container">
+        <div class="info-box" id="headline1">
+            <h1 class="Headline">Over mij</h1>
+            <p>
+                <br>
+                Hallo. Ik ben Sam Mayer. Ik ben 18 jaar oud en ik studeer software development bij ROC van Flevoland.
+            </p>
+        </div>
+        <div class="info-box" id="headline2">
+            <h1 class="Headline">Opleiding</h1>
+            <p>
+                <br>
+                Ik studeer nu bij het ROC van Flevoland software development<br><br>
+                En ik ben afgestudeerd bij baken park lyceum MAVO
+
+            </p>
+        </div>
+        <div class="info-box" id="headline3">
+            <h1 class="Headline">Projecten</h1>
+            <p>
+                <br>
+                <a class="projectLink" href="./Mastermind one shot/index.html">Mastermind</a><br><br>
+                <a class="projectLink" href="./cps website/index.html">Cps</a><br><br>
+                <a class="projectLink" href="./tic-tac-toe/index.html">Tic-Tac-Toe</a>
+            </p>
+        </div>
+        <div class="info-box " id="headline4">
+            <div id="skill-container">
+                <div class="Head-container">
+                    <h1 class="Headline">Skills</h1>
+                </div>
+                <div class="skillName">JAVA</div>
+                <div class="skillBar-container">
+                    <div class="skillBar skillBar-0">
+                        <div class="skillDone skillDone-0"></div>
+                    </div>
+                </div>
+                <div class="skillName">HTML</div>
+                <div class="skillBar-container">
+                    <div class="skillBar skillBar-1">
+                        <div class="skillDone skillDone-1"></div>
+                    </div>
+                </div>
+                <div class="skillName">CSS</div>
+                <div class="skillBar-container">
+                    <div class="skillBar skillBar-2">
+                        <div class="skillDone skillDone-2"></div>
+                    </div>
+                </div>
+                <div class="skillName">JavaScript</div>
+                <div class="skillBar-container">
+                    <div class="skillBar skillBar-3">
+                        <div class="skillDone skillDone-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-box" id="headline5">
+            <h1 class="Headline">Werkervaring</h1>
+            <p>
+                <br>
+                Ik heb bij het restaurant <strong>Sluizer</strong> gewerkt als afwasser.<br><br>
+                Ik werk bij de <strong>Vomar</strong> als vakkenvuller voor al 5 maanden.
+            </p>
+        </div>
+        <div class="info-box" id="headline6">
+            <div id="footer">
+                <div id="contact-container">
+                    <div class="contact contact-1">
+                        <h1 class="Headline">Contact</h1>
+                    </div>
+                    <div class="contact">
+                        <a href=""><img id="mailImg" src="email.png" alt="" class="contactImg"></a>
+                        <p>sammayer0815@gmail.com</p>
+                    </div>
+                    <div class="contact">
+                        <a href=""><img id="discordImg" src="discord.png" alt="" class="contactImg"></a>
+                        <p>Shrekker#7069</p>
+                    </div>
+                    <div class="contact">
+                        <p>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <div id="navigatie-containerButton">
+        <div id="navigatieButton-circle">
+            <div class="navigatieButton" id="about2"><strong><a id="aboutLink2" href="#headline1" style="text-decoration: none;"><span></span>Over mij</a></strong></div>
+            <div class="navigatieButton" id="opleidingen2"><strong><a id="opleidingenLink2" href="#headline2" style="text-decoration: none;"><span></span>Opleidingen</a></strong></div>
+            <div class="navigatieButton" id="projecten2"><strong><a id="projectenLink2" href="#headline3" style="text-decoration: none;"><span></span>Projecten</a></strong></div>
+            <div class="navigatieButton" id="skills2"><strong><a id="skillsLink2" href="#headline4" style="text-decoration: none;"><span></span>Skills</a></strong></div>
+            <div class="navigatieButton" id="werkervaring2"><strong><a id="werkervaringLink2" href="#headline5" style="text-decoration: none;"><span></span>Werkervaring</a></strong></div>
+            <div class="navigatieButton" id="contact2"><strong><a id="contactLink2" href="#headline6" style="text-decoration: none;"><span></span>Contact</a></strong></div>
+        </div>
+    </div>
+    <div id="button-section">
+    <div class="button">
+        <div class="buttonBar buttonBar-1"></div>
+        <div class="buttonBar buttonBar-2"></div>
+        <div class="buttonBar buttonBar-3"></div>
+    </div>
+    
+     
+</body>
+</html>
+
+<script src="script.js"></script>
